@@ -1,0 +1,27 @@
+# commands for venv usage
+
+# activate venv
+source my_env_project/bin/activate
+# deactivate venv
+deactivate
+
+installed 
+  numpy
+  selenium
+  beautifulsoup4
+  lxml parser libary
+
+https://yle.fi/uutiset/3-12025156
+
+gona do some web scraping now
+
+scraper should read https://yle.fi/uutiset
+
+once in an hour maby
+create a list of href links to a news storys
+ compare links to a hashmap of links in database
+ if link is new scarape news to a news object and save to database
+ 
+ title as a hash map
+ paragraphs 
+
