@@ -1,27 +1,41 @@
-# commands for venv usage
+# Python venv in win10 wsl2
+Versions
+
+- Ubuntu 20.04.2 LTS
+- Python 3.8.5
+***
+commands for venv
+``` bash
+# create venv
+python3 -m venv venv
 
 # activate venv
-source my_env_project/bin/activate
+source venv/bin/activate 
+
+# shows python version
+which python
+
+# installs dependen
+pip install -r requirements.txt
+
 # deactivate venv
-deactivate
+deactive 
+```
 
-installed 
-  numpy
-  selenium
+requirements.txt is generated with
+
+```bash
+pip freeze > requirements.txt
+```
+***
+
+installed libaryies
   beautifulsoup4
-  lxml parser libary
+  lxml
 
+site that is used as an example
 https://yle.fi/uutiset/3-12025156
 
-gona do some web scraping now
 
-scraper should read https://yle.fi/uutiset
 
-once in an hour maby
-create a list of href links to a news storys
- compare links to a hashmap of links in database
- if link is new scarape news to a news object and save to database
- 
- title as a hash map
- paragraphs 
 
