@@ -18,15 +18,17 @@ which python
 # deactivate venv
 deactive
 
-# installs dependen
-pip install -r requirements.txt
+
 ```
 
-requirements.txt is generated with
 
+# installs dependen
 ```bash
 pip freeze > requirements.txt
 ```
+
+# installs dependen
+```pip install -r requirements.txt```
 ***
 
 installed libaryies
