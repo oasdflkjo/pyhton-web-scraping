@@ -23,12 +23,12 @@ deactive
 
 
 # installs dependen
-```bash
+
 pip freeze > requirements.txt
-```
+
 
 # installs dependen
-```pip install -r requirements.txt```
+pip install -r requirements.txt
 ***
 
 installed libaryies
