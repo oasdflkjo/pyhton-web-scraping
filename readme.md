@@ -7,19 +7,19 @@ Versions
 commands for venv
 ``` bash
 # create venv
-python3 -m venv venv
+python3 -m venv .venv
 
 # activate venv
-source venv/bin/activate 
+source .venv/bin/activate 
 
 # shows python version
 which python
 
+# deactivate venv
+deactive
+
 # installs dependen
 pip install -r requirements.txt
-
-# deactivate venv
-deactive 
 ```
 
 requirements.txt is generated with
