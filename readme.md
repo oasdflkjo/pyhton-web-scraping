@@ -4,7 +4,7 @@ Versions
 - Ubuntu 20.04.2 LTS
 - Python 3.8.5
 ***
-commands for venv
+**commands for venv**
 ``` bash
 # create venv
 python3 -m venv .venv
@@ -17,20 +17,17 @@ which python
 
 # deactivate venv
 deactive
-
-
 ```
-
-
+**commands to dependensy management**
+```bash
 # installs dependen
-
 pip freeze > requirements.txt
-
 
 # installs dependen
 pip install -r requirements.txt
-***
+```
 
+***
 installed libaryies
   beautifulsoup4
   lxml
