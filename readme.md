@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 
 ***
-installed libaryies
+installed libraries
   beautifulsoup4
   lxml
 
